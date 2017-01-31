@@ -21,8 +21,8 @@ TARGET = ks0108test
 
 # Programming hardware: type avrdude -c ?
 # to get a full listing.
-#AVRDUDE_PROGRAMMER = dapa              # official name of 
-AVRDUDE_PROGRAMMER = dragon_isp
+AVRDUDE_PROGRAMMER = usbtiny              # official name of 
+#AVRDUDE_PROGRAMMER = dragon_isp
 
 AVRDUDE_PORT = usb			# linux for dragon
 #AVRDUDE_PORT = /dev/parport0           # linux
